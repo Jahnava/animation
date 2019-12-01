@@ -1,3 +1,28 @@
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove1 {
+  from {background-color: yellow;}
+  to {background-color: purple;}
+}
+
+/* Standard syntax */
+@keyframes mymove1 {
+  from {background-color: yellow;}
+  to {background-color: purple;}
+}
+
 #trunk {
   position: absolute;
   height: 100px;
@@ -85,6 +110,8 @@
     border-radius: 50%;
   margin-top: 15%;
   margin-left: 46%;
+  -webkit-animation: mymove1 9s infinite; /* Chrome, Safari, Opera */
+  animation: mymove1 9s infinite;
 }
 .ornament1{
   position: absolute;
@@ -94,6 +121,8 @@
     border-radius: 50%;
   margin-top: 25%;
   margin-left: 47%;
+  -webkit-animation: mymove 4s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 4s infinite;
 }
 .ornament2{
   position: absolute;
@@ -103,6 +132,8 @@
     border-radius: 50%;
   margin-top: 28%;
   margin-left: 44%;
+  -webkit-animation: mymove1 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove1 5s infinite;
 }
 .ornament3{
   position: absolute;
@@ -112,6 +143,8 @@
     border-radius: 50%;
   margin-top: 15%;
   margin-left: 49%;
+  -webkit-animation: mymove 8s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 8s infinite;
 }
 .ornament4{
   position: absolute;
@@ -121,6 +154,8 @@
     border-radius: 50%;
   margin-top: 20%;
   margin-left: 44%;
+  -webkit-animation: mymove1 7s infinite; /* Chrome, Safari, Opera */
+  animation: mymove1 7s infinite;
 }
 .ornament5{
   position: absolute;
@@ -130,6 +165,8 @@
     border-radius: 50%;
   margin-top: 10%;
   margin-left: 47%;
+  -webkit-animation: mymove 3s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 3s infinite;
 }
 .ornament6{
   position: absolute;
@@ -139,6 +176,8 @@
     border-radius: 50%;
   margin-top: 19%;
   margin-left: 51%;
+  -webkit-animation: mymove 6s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 6s infinite;
 }
 .ornament7{
   position: absolute;
@@ -148,6 +187,8 @@
     border-radius: 50%;
   margin-top: 25%;
   margin-left: 51%;
+  -webkit-animation: mymove1 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove1 5s infinite;
 }
 .ornament8{
   position: absolute;
@@ -157,6 +198,8 @@
     border-radius: 50%;
   margin-top: 30%;
   margin-left: 41%;
+  -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 2s infinite;
 }
 .ornament9{
   position: absolute;
@@ -166,6 +209,8 @@
     border-radius: 50%;
   margin-top: 29%;
   margin-left: 53%;
+  -webkit-animation: mymove1 4s infinite; /* Chrome, Safari, Opera */
+  animation: mymove1 4s infinite;
 }
 .ornament10{
   position: absolute;
@@ -175,4 +220,6 @@
     border-radius: 50%;
   margin-top: 7%;
   margin-left: 48%;
+  -webkit-animation: mymove 3s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 3s infinite;
 }
