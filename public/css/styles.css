@@ -1,3 +1,9 @@
+.gifts .gift-box, .gifts .bow, .gifts .gift-box2, .gifts .bow2 {
+  height: 40px;
+  position: absolute;
+  margin-top: 34%;
+  border: 1px solid black; }
+
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
   from {
@@ -25,6 +31,9 @@
     background-color: yellow; }
   to {
     background-color: purple; } }
+
+html, body {
+  background-color: lightblue; }
 
 #trunk {
   position: absolute;
@@ -236,3 +245,25 @@
   -webkit-animation: mymove 3s infinite;
   /* Chrome, Safari, Opera */
   animation: mymove 3s infinite; }
+
+.grass {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  margin-top: 35%;
+  background-color: green; }
+
+.gifts .gift-box {
+  width: 50px;
+  background-color: red;
+  margin-left: 40%; }
+
+.gifts .bow {
+  width: 10px;
+  background-color: green;
+  margin-left: 41.5%; }
+
+.gifts .gift-box2 {
+  background-color: yellow;
+  margin-left: 60%;
+  width: 60px; }
