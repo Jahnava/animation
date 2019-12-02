@@ -1,4 +1,4 @@
-.gifts .gift-box, .gifts .bow, .gifts .gift-box2, .gifts .bow2 {
+.gifts .gift-box, .gifts .bow, .gifts .gift-box2, .gifts .bow2, .gifts .gift-box3, .gifts .bow3 {
   height: 40px;
   position: absolute;
   margin-top: 34%;
@@ -228,8 +228,8 @@ html, body {
   border-radius: 50%;
   margin-top: 7%;
   margin-left: 48%;
-  -webkit-animation: mymove 3s infinite;
-  animation: mymove 3s infinite; }
+  -webkit-animation: mymove 8s infinite;
+  animation: mymove 8s infinite; }
 
 .grass {
   position: absolute;
@@ -251,4 +251,30 @@ html, body {
 .gifts .gift-box2 {
   background-color: #ff0;
   margin-left: 60%;
-  width: 60px; }
+  width: 70px; }
+
+.gifts .bow2 {
+  background-color: purple;
+  margin-left: 62.5%;
+  width: 10px; }
+
+.gifts .gift-box3 {
+  background-color: blue;
+  margin-left: 50%;
+  width: 80px;
+  height: 80px; }
+
+.gifts .bow3 {
+  background-color: #ff0;
+  margin-left: 53%;
+  width: 10px;
+  height: 80px; }
+
+.gifts .bow3horizontal {
+  background-color: #ff0;
+  margin-left: 50%;
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  margin-top: 36.5%;
+  border: 1px solid black; }
